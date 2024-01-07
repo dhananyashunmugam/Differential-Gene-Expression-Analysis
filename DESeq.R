@@ -8,7 +8,7 @@ library(tidyverse)
 #Loading count file and sample info file
 data <- read.table("rawcount_input_without_outlier.txt", header = TRUE, row.names = 1)
 data <- as.matrix(data)
-colnames(data)<- c('HC1',	'HC2',	'HC3',	'HC4',	'HC5',	'HC6',	'HC7',	'LTB1',	'LTB2',	'LTB3',	'LTB4',	'LTB5',	'LTB6',	'LTB7',	'LTB8',	'DS-TB1',	'DS-TB2',	'DS-TB3',	'DS-TB4',	'DS-TB5',	'DS-TB6',	'DR-TB1',	'DR-TB2',	'DR-TB3',	'DR-TB4',	'DR-TB5',	'DR-TB6','DR-TB7')
+colnames(data)<- c('HC1', 'HC2',	'HC3',	'HC4',	'HC5',	'HC6',	'HC7',	'LTB1',	'LTB2',	'LTB3',	'LTB4',	'LTB5',	'LTB6',	'LTB7',	'LTB8',	'DS-TB1',	'DS-TB2',	'DS-TB3',	'DS-TB4',	'DS-TB5',	'DS-TB6',	'DR-TB1',	'DR-TB2',	'DR-TB3',	'DR-TB4',	'DR-TB5',	'DR-TB6','DR-TB7')
 meta <- read.table("rawcount_info_without_outlier.txt", header = TRUE, row.names = 1)
 
 # Check that sample names match in both files
