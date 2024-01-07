@@ -4,9 +4,9 @@ The R script performs several steps in RNAseq gene differential expression analy
 
 # R packages to be installed
 
-DESeq2
-pheatmap
-tidyverse
-ggrepel
-EnhancedVolcano
+- DESeq2
+- pheatmap
+- tidyverse
+- ggrepel
+- EnhancedVolcano
 
